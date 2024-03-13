@@ -1,0 +1,14 @@
+﻿<Window x:Class="ServerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ServerApp" Height="450" Width="600">
+    <Grid>
+        <StackPanel>
+            <Label Content="Server IMAGE" HorizontalContentAlignment="Center" FontSize="40" FontWeight="Bold" Background="SlateBlue" Foreground="White"></Label>
+            <ListBox x:Name="imageListBox" Height="300" Width="400" Margin="0,20,0,0"/>
+
+           
+
+        </StackPanel>
+    </Grid>
+</Window>
